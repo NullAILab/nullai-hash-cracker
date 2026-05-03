@@ -1,0 +1,25 @@
+# Build
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Binaries
+hash-cracker
+hash-cracker.exe
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# Wordlists (can be very large)
+*.txt
+!README*.txt
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
